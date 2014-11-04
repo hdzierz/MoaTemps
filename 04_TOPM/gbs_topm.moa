@@ -1,0 +1,29 @@
+author: Helge Dzierzon
+backend: ruff
+commands:
+  run:
+    help: ''
+    mode: simple
+creation_date: October 29 2014
+description: Convert sam tags to tags on physical map (TOPM)
+parameters:
+  project:
+    category: input
+    help: 'Name of the project'
+    optional: true
+    type: string
+  config:
+    category: input
+    help: 'Configuration XML file'
+    optional: true
+    type: string
+  opt:
+    category: input
+    help: 'Additional options for tassel'
+    optional: true
+    type: string
+moa_id: gbs_topm
+name: gbs_topm
+title: Convert sam tags to tags on physical map (TOPM)
+
+
